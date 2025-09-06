@@ -1,5 +1,5 @@
-source /data/secrets.txt
-cat /data/secrets.txt
+source /data/secrets
+cat /data/secrets
 echo
 env
 
