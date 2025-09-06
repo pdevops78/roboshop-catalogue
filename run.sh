@@ -1,4 +1,5 @@
 source /tmp/secrets.txt
+
 echo
 env
 if [ -z "${DOCUMENTDB}" ]; then
