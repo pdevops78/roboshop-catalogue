@@ -1,7 +1,5 @@
-source /data/secrets.txt
-cat  /data/secrets.txt
-echo
-env
+source /data/secrets
+cat  /data/secrets
 
 if [ -z "${DOCUMENTDB}" ]; then
     echo "Environment variable is missing"
